@@ -1,0 +1,36 @@
+# ZFS
+.zfs/
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# Direnv
+.direnv
+
+# Pre-commit
+.pre-commit-config.yaml
+
+# Cache
+.cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Trash
+.Trash*
+
+# Build results
+result*
+
+# Secrets (just in case they escape git hooks)
+*.key
+*.age
+*.pem
+
+# Temporary files
+*.tmp
