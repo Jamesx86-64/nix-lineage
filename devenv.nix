@@ -12,8 +12,6 @@
     enable = true;
     config.programs = {
       nixfmt.enable = true;
-      deadnix.enable = true;
-      statix.enable = true;
       mdformat = {
         enable = true;
         settings.wrap = 80;
@@ -42,6 +40,8 @@
     check-merge-conflicts.enable = true;
 
     # Code quality
+    deadnix.enable = true;
+    statix.enable = true;
     treefmt.enable = true;
     ruff.enable = true;
     typos.enable = true;
