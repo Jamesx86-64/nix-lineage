@@ -1,4 +1,4 @@
-[![CI](https://github.com/Jamesx86-64/nix-lineage/actions/workflows/ci.yml/badge.svg)](https://github.com/Jamesx86-64/nix-lineage/actions/workflows/ci.yml)
+[![CI](https://github.com/James-1701/nix-lineage/actions/workflows/ci.yml/badge.svg)](https://github.com/James-1701/nix-lineage/actions/workflows/ci.yml)
 ![Flakes](https://img.shields.io/badge/Nix-Flake%20enabled-blue?logo=nixos&logoColor=white)
 [![Built with Nix](https://img.shields.io/static/v1?logo=nixos&logoColor=white&label=&message=Built%20with%20Nix&color=5277C3)](https://builtwithnix.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -236,7 +236,7 @@ traditional NixOS module support is not a high priority.
 ```nix
 {
   # Add the flake input
-  inputs.lineage.url = "github:Jamesx86-64/nix-lineage";
+  inputs.lineage.url = "github:James-1701/nix-lineage";
 
   outputs =
     { nixpkgs, inputs, ... }:
@@ -569,8 +569,8 @@ tool.
 clicks, stick with traditional patterns if it doesn't.
 
 > **Contributing:**
-> [Open an issue](https://github.com/Jamesx86-64/nix-lineage/issues) with fleet
+> [Open an issue](https://github.com/James-1701/nix-lineage/issues) with fleet
 > size and use case. CLI tooling and large-scale testing most valuable.\
 > **License:** [Apache 2.0](https://opensource.org/licenses/Apache-2.0)\
 > **Repository:**
-> [github.com/Jamesx86-64/nix-lineage](https://github.com/Jamesx86-64/nix-lineage)
+> [github.com/James-1701/nix-lineage](https://github.com/James-1701/nix-lineage)
